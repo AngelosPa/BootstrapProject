@@ -5823,7 +5823,7 @@ a.close.disabled {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 15%;
+  width: 7%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
@@ -5906,13 +5906,15 @@ a.close.disabled {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 20rem;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: center;
+  transform: scale(3);
+  transition: 3s;
 }
 @-webkit-keyframes spinner-border {
   to {
