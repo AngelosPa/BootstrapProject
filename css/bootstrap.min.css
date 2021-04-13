@@ -6241,6 +6241,7 @@ button.bg-dark:hover {
     display: inline-flex !important;
   }
 }
+
 @media (min-width: 768px) {
   .d-md-none {
     display: none !important;
@@ -9409,4 +9410,19 @@ th {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* I ADDED THAT  */
+@media (max-width: 600px) {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+
+    left: 15%;
+    z-index: 10;
+    width: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+    transition: 3s;
+  }
 }
